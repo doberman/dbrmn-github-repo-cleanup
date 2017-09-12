@@ -1,7 +1,7 @@
 {
   "name": "@doberman/github-repo-cleanup",
   "version": "0.2.5",
-  "description": "Clones GitHub repositories, zips them up and uploads them to Dropbox. Also, if specified, deletes the repository from GitHub.",
+  "description": "CLI tool to clone GitHub repositories, zip them up and — if specified — delete the repository from GitHub.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doberman/dbrmn-github-repo-cleanup.git"

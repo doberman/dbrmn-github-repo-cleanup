@@ -1,6 +1,18 @@
 # github-repo-cleanup
 
-> Clones GitHub repositories, zips them up and uploads them to Dropbox. Also, if specified, deletes the repository from GitHub.
+> CLI tool to clone GitHub repositories, zip them up and — if specified — delete the repository from GitHub.
+
+## Requirements
+
+This project requires [NodeJS](https://nodejs.org) v8.0+.
+
+## Installation
+
+Install via [npm](https://npmjs.com):
+
+```
+npm i -g github-repo-cleanup
+```
 
 ## Setup
 
