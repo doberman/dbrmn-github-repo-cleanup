@@ -1,0 +1,50 @@
+{
+  "name": "@doberman/github-repo-cleanup",
+  "version": "0.2.5",
+  "description": "Clones GitHub repositories, zips them up and uploads them to Dropbox. Also, if specified, deletes the repository from GitHub.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doberman/dbrmn-github-repo-cleanup.git"
+  },
+  "engines": {
+    "node": ">=8.0"
+  },
+  "author": {
+    "name": "Doberman",
+    "url": "https://doberman.io"
+  },
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/doberman/dbrmn-github-repo-cleanup#readme",
+  "bugs": {
+    "url": "https://github.com/doberman/dbrmn-github-repo-cleanup/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "precommit": "eslint ."
+  },
+  "bin": {
+    "github-repo-cleanup": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "columnify": "^1.5.4",
+    "commander": "^2.11.0",
+    "dropbox": "^2.5.2",
+    "github": "^11.0.0",
+    "inquirer": "^3.0.6",
+    "listr": "^0.11.0",
+    "nodegit": "^0.18.0",
+    "rimraf": "^2.6.1",
+    "shell-source": "^1.1.0",
+    "ssh-agent": "^0.2.4",
+    "tar.gz": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "husky": "^0.13.3"
+  }
+}
