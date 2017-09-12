@@ -11,7 +11,7 @@ This project requires [NodeJS](https://nodejs.org) v8.0+.
 Install via [npm](https://npmjs.com):
 
 ```
-npm i -g github-repo-cleanup
+npm i -g @doberman/github-repo-cleanup
 ```
 
 ## Setup
