@@ -6,6 +6,12 @@ node_js:
   - "node"
 git:
   depth: 1
+addons:
+  apt:
+    packages:
+      - gcc-4.9-multilib
+      - g++-4.9-multilib
 before_install:
   - export CC=clang
   - export CXX=clang++
+  - export npm_config_clang=1
