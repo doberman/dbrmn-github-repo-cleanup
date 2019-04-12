@@ -1,6 +1,6 @@
 {
   "name": "@doberman/github-repo-cleanup",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "CLI tool to clone GitHub repositories, zip them up and — if specified — delete the repository from GitHub.",
   "repository": {
     "type": "git",
