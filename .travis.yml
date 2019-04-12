@@ -10,3 +10,4 @@ before_install:
   - export CC=clang
   - export CXX=clang++
   - export npm_config_clang=1
+  - npm install nodegit --build-from-source
