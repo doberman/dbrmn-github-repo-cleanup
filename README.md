@@ -1,4 +1,4 @@
-# github-repo-cleanup
+# github-repo-cleanup [![Build Status](https://travis-ci.com/doberman/dbrmn-github-repo-cleanup.svg?branch=master)](https://travis-ci.com/doberman/dbrmn-github-repo-cleanup)
 
 > CLI tool to clone GitHub repositories, zip them up and — if specified — delete the repository from GitHub.
 
