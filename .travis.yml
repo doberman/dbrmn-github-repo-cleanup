@@ -6,3 +6,6 @@ node_js:
   - "node"
 git:
   depth: 1
+before_install:
+  - export CC=clang
+  - export CXX=clang++
